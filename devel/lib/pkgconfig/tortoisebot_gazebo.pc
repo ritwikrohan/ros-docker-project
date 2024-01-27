@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/devel
+
+Name: tortoisebot_gazebo
+Description: Description of tortoisebot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

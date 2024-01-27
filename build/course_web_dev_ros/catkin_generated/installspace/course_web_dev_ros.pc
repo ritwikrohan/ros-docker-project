@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/install
+
+Name: course_web_dev_ros
+Description: Description of course_web_dev_ros
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+set(course_web_dev_ros_MESSAGE_FILES "msg/ExampleActionAction.msg;msg/ExampleActionActionGoal.msg;msg/ExampleActionActionResult.msg;msg/ExampleActionActionFeedback.msg;msg/ExampleActionGoal.msg;msg/ExampleActionResult.msg;msg/ExampleActionFeedback.msg;msg/WaypointActionAction.msg;msg/WaypointActionActionGoal.msg;msg/WaypointActionActionResult.msg;msg/WaypointActionActionFeedback.msg;msg/WaypointActionGoal.msg;msg/WaypointActionResult.msg;msg/WaypointActionFeedback.msg")
+set(course_web_dev_ros_SERVICE_FILES "")

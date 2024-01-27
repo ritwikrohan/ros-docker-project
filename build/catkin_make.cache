@@ -1,0 +1,2 @@
+async_web_server_cpp:course_web_dev_ros:tf2_web_republisher:tortoisebot/tortoisebot_control:tortoisebot/tortoisebot_description:tortoisebot/tortoisebot_firmware:tortoisebot/tortoisebot_gazebo:tortoisebot/tortoisebot_navigation:tortoisebot/tortoisebot_slam:tortoisebot/ydlidar_ros:web_video_server
+-DCATKIN_DEVEL_PREFIX=/home/user/simulation_ws/devel -DCMAKE_INSTALL_PREFIX=/home/user/simulation_ws/install -G Unix Makefiles

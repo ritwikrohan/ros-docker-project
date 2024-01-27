@@ -1,0 +1,8 @@
+prefix=/home/user/simulation_ws/install
+
+Name: tortoisebot_description
+Description: Description of tortoisebot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

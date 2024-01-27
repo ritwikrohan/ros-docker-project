@@ -1,0 +1,38 @@
+
+(cl:in-package :asdf)
+
+(defsystem "course_web_dev_ros-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ExampleActionAction" :depends-on ("_package_ExampleActionAction"))
+    (:file "_package_ExampleActionAction" :depends-on ("_package"))
+    (:file "ExampleActionActionFeedback" :depends-on ("_package_ExampleActionActionFeedback"))
+    (:file "_package_ExampleActionActionFeedback" :depends-on ("_package"))
+    (:file "ExampleActionActionGoal" :depends-on ("_package_ExampleActionActionGoal"))
+    (:file "_package_ExampleActionActionGoal" :depends-on ("_package"))
+    (:file "ExampleActionActionResult" :depends-on ("_package_ExampleActionActionResult"))
+    (:file "_package_ExampleActionActionResult" :depends-on ("_package"))
+    (:file "ExampleActionFeedback" :depends-on ("_package_ExampleActionFeedback"))
+    (:file "_package_ExampleActionFeedback" :depends-on ("_package"))
+    (:file "ExampleActionGoal" :depends-on ("_package_ExampleActionGoal"))
+    (:file "_package_ExampleActionGoal" :depends-on ("_package"))
+    (:file "ExampleActionResult" :depends-on ("_package_ExampleActionResult"))
+    (:file "_package_ExampleActionResult" :depends-on ("_package"))
+    (:file "WaypointActionAction" :depends-on ("_package_WaypointActionAction"))
+    (:file "_package_WaypointActionAction" :depends-on ("_package"))
+    (:file "WaypointActionActionFeedback" :depends-on ("_package_WaypointActionActionFeedback"))
+    (:file "_package_WaypointActionActionFeedback" :depends-on ("_package"))
+    (:file "WaypointActionActionGoal" :depends-on ("_package_WaypointActionActionGoal"))
+    (:file "_package_WaypointActionActionGoal" :depends-on ("_package"))
+    (:file "WaypointActionActionResult" :depends-on ("_package_WaypointActionActionResult"))
+    (:file "_package_WaypointActionActionResult" :depends-on ("_package"))
+    (:file "WaypointActionFeedback" :depends-on ("_package_WaypointActionFeedback"))
+    (:file "_package_WaypointActionFeedback" :depends-on ("_package"))
+    (:file "WaypointActionGoal" :depends-on ("_package_WaypointActionGoal"))
+    (:file "_package_WaypointActionGoal" :depends-on ("_package"))
+    (:file "WaypointActionResult" :depends-on ("_package_WaypointActionResult"))
+    (:file "_package_WaypointActionResult" :depends-on ("_package"))
+  ))
