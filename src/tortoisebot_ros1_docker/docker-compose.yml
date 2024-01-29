@@ -11,8 +11,8 @@ services:
       - "11311"
 
   tortoisebot-ros1-gazebo:
-    build: ./tortoisebot_ros1_gazebo
-    image: ros1:gazebo
+    build: ./tortoisebot-ros1-gazebo
+    # image: ros1:gazebo
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -22,16 +22,16 @@ services:
       - rosnet
     depends_on:
       - tortoisebot-roscore
-    healthcheck:
-      test: ["CMD", "rosnode", "list"]
-      interval: 5s
-      timeout: 10s
-      retries: 5
+    # healthcheck:
+    #   test: ["CMD", "rosnode", "list"]
+    #   interval: 5s
+    #   timeout: 10s
+    #   retries: 5
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-slam:
-    build: ./tortoisebot_ros1_slam
-    image: ros1:slam
+    build: ./tortoisebot-ros1-slam
+    # image: ros1:slam
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -41,16 +41,16 @@ services:
       - rosnet
     depends_on:
       - tortoisebot-roscore
-    healthcheck:
-      test: ["CMD", "rosnode", "list"]
-      interval: 5s
-      timeout: 10s
-      retries: 5
+    # healthcheck:
+    #   test: ["CMD", "rosnode", "list"]
+    #   interval: 5s
+    #   timeout: 10s
+    #   retries: 5
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-waypoints:
-    build: ./tortoisebot_ros1_waypoints
-    image: ros1:waypoints
+    build: ./tortoisebot-ros1-waypoints
+    # image: ros1:waypoints
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -61,16 +61,16 @@ services:
     depends_on:
       - tortoisebot-ros1-gazebo
       - tortoisebot-ros1-slam
-    healthcheck:
-      test: ["CMD", "rosnode", "list"]
-      interval: 5s
-      timeout: 10s
-      retries: 5
+    # healthcheck:
+    #   test: ["CMD", "rosnode", "list"]
+    #   interval: 5s
+    #   timeout: 10s
+    #   retries: 5
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-webapp:
-    build: ./tortoisebot_ros1_webapp
-    image: ros1:webapp
+    build: ./tortoisebot-ros1-webapp
+    # image: ros1:webapp
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -84,11 +84,11 @@ services:
       - tortoisebot-ros1-waypoints
     networks:
       - rosnet
-    healthcheck:
-      test: ["CMD", "rosnode", "list"]
-      interval: 5s
-      timeout: 10s
-      retries: 5
+    # healthcheck:
+    #   test: ["CMD", "rosnode", "list"]
+    #   interval: 5s
+    #   timeout: 10s
+    #   retries: 5
     restart: "always"  # Run in detached mode
 
 networks:

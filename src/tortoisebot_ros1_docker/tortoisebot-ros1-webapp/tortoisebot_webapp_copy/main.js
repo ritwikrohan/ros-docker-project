@@ -81,7 +81,7 @@ var app = new Vue({
                 })
                 // Scale the canvas to fit to the map
                 this.mapGridClient.on('change', () => {
-                    this.mapViewer.scaleToDimensions(0.5 * this.mapGridClient.currentGrid.width, 0.5 * this.mapGridClient.currentGrid.height);
+                    this.mapViewer.scaleToDimensions(this.mapGridClient.currentGrid.width, this.mapGridClient.currentGrid.height);
                     this.mapViewer.shift(this.mapGridClient.currentGrid.pose.position.x, this.mapGridClient.currentGrid.pose.position.y)
                     // const mapWidth = 0.5 * this.mapGridClient.currentGrid.width;
                     // const mapHeight = 0.5 * this.mapGridClient.currentGrid.height;
