@@ -1,0 +1,11 @@
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/install/strip.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/install/local.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/install.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/test.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_client.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_uninstall.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/ydlidar_node.dir
+/home/user/ros2_ws/build/ydlidar/CMakeFiles/uninstall.dir

@@ -1,0 +1,42 @@
+[1.201s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_description -- -j8 -l8
+[3.993s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_description -- -j8 -l8
+[4.803s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_description
+[5.094s] -- Install configuration: ""
+[5.103s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch
+[5.104s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[5.105s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/rviz.launch.py
+[5.106s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[5.108s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models
+[5.113s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf
+[5.113s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/materials.xacro
+[5.113s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot.xacro
+[5.115s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes
+[5.116s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.stl
+[5.116s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_bottom.stl
+[5.116s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.stl
+[5.116s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.stl
+[5.117s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/imu.stl
+[5.117s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_body.stl
+[5.117s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera.stl
+[5.117s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_motorend.stl
+[5.118s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar_top.stl
+[5.118s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/models/meshes/caster.stl
+[5.118s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz
+[5.118s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/sensors.rviz
+[5.119s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_navigation.rviz
+[5.120s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[5.120s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[5.120s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[5.120s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[5.121s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[5.121s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[5.121s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[5.121s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[5.122s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[5.122s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[5.124s] -- Installing: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[5.295s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[5.295s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[5.296s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[5.296s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[5.713s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_description

@@ -1,0 +1,39 @@
+[0.790s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_firmware -- -j8 -l8
+[2.193s] Built target ament_cmake_python_copy_tortoisebot_firmware
+[4.500s] running egg_info
+[4.500s] writing tortoisebot_firmware.egg-info/PKG-INFO
+[4.500s] writing dependency_links to tortoisebot_firmware.egg-info/dependency_links.txt
+[4.500s] writing top-level names to tortoisebot_firmware.egg-info/top_level.txt
+[4.711s] reading manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[4.712s] writing manifest file 'tortoisebot_firmware.egg-info/SOURCES.txt'
+[4.919s] Built target ament_cmake_python_build_tortoisebot_firmware_egg
+[5.013s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_firmware -- -j8 -l8
+[5.495s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_firmware
+[5.610s] -- Install configuration: ""
+[5.611s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.sh
+[5.611s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/pythonpath.dsv
+[5.611s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages//tortoisebot_firmware.egg-info
+[5.611s] -- Installing: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages//tortoisebot_firmware.egg-info/dependency_links.txt
+[5.612s] -- Installing: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages//tortoisebot_firmware.egg-info/SOURCES.txt
+[5.612s] -- Installing: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages//tortoisebot_firmware.egg-info/PKG-INFO
+[5.613s] -- Installing: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages//tortoisebot_firmware.egg-info/top_level.txt
+[5.691s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages/tortoisebot_firmware
+[5.691s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages/tortoisebot_firmware/__init__.py
+[5.992s] Listing '/home/user/ros2_ws/install/tortoisebot_firmware/lib/python3.8/site-packages/tortoisebot_firmware'...
+[5.999s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/lib/tortoisebot_firmware/differential.py
+[6.000s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/ament_index/resource_index/package_run_dependencies/tortoisebot_firmware
+[6.000s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/ament_index/resource_index/parent_prefix_path/tortoisebot_firmware
+[6.001s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.sh
+[6.002s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/ament_prefix_path.dsv
+[6.003s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.sh
+[6.003s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/environment/path.dsv
+[6.003s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.bash
+[6.007s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.sh
+[6.007s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.zsh
+[6.007s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/local_setup.dsv
+[6.008s] -- Installing: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/package.dsv
+[6.008s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/ament_index/resource_index/packages/tortoisebot_firmware
+[6.008s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig.cmake
+[6.008s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/cmake/tortoisebot_firmwareConfig-version.cmake
+[6.008s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_firmware/share/tortoisebot_firmware/package.xml
+[6.093s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_firmware

@@ -1,0 +1,28 @@
+[0.927s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_gazebo -- -j8 -l8
+[4.010s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_gazebo -- -j8 -l8
+[5.118s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_gazebo
+[5.514s] -- Install configuration: ""
+[5.514s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo
+[5.515s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[5.515s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[5.515s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[5.516s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch
+[5.516s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[5.516s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds
+[5.517s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[5.517s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[5.517s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[5.518s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[5.518s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[5.518s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[5.519s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[5.519s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[5.519s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[5.520s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[5.520s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[5.520s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[5.521s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[5.521s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[5.521s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[5.525s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[5.806s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_gazebo

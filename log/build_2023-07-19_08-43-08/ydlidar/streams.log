@@ -1,0 +1,33 @@
+[0.627s] Invoking command in '/home/user/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ydlidar -- -j8 -l8
+[2.019s] [ 18%] Built target ydlidar_client
+[2.137s] [100%] Built target ydlidar_node
+[2.915s] Invoked command in '/home/user/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/ydlidar -- -j8 -l8
+[3.899s] Invoking command in '/home/user/ros2_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ydlidar
+[3.929s] -- Install configuration: ""
+[4.007s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[4.007s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[4.008s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch
+[4.008s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/x2_ydlidar_launch.py
+[4.008s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[4.009s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/launch/x4_ydlidar_launch.py
+[4.009s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params
+[4.009s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar_x4.yaml
+[4.009s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/params/ydlidar_x2.yaml
+[4.009s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/startup
+[4.010s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[4.010s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[4.010s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[4.010s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[4.010s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[4.011s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[4.011s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[4.011s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[4.012s] -- Installing: /home/user/ros2_ws/install/ydlidar/share/ydlidar/package.dsv
+[4.012s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[4.013s] -- Up-to-date: /home/user/ros2_ws/install/ydlidar/share/ydlidar/package.xml
+[4.133s] Invoked command in '/home/user/ros2_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/ydlidar

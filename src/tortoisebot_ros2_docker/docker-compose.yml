@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+  tortoisebot-ros2-gazebo:
+    build: ./tortoisebot-ros2-gazebo
+    # image: ros2:gazebo
+    expose:
+      - "11311"
+    environment:
+      - DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    networks:
+      - rosnet
+    # restart: "always"  # Run in detached mode
+
+  tortoisebot-ros2-slam:
+    build: ./tortoisebot-ros2-slam
+    # image: ros2:slam
+    expose:
+      - "11311"
+    environment:
+      - DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    networks:
+      - rosnet
+    depends_on:
+      - tortoisebot-ros2-gazebo
+    # restart: "always"  # Run in detached mode
+
+networks:
+  rosnet:
+    driver: bridge

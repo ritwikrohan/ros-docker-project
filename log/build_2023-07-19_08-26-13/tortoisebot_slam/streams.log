@@ -1,0 +1,26 @@
+[1.004s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_slam -- -j8 -l8
+[3.590s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_slam -- -j8 -l8
+[4.202s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_slam
+[4.387s] -- Install configuration: ""
+[4.388s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/launch
+[4.389s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer.launch.py
+[4.389s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config
+[4.390s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/2d_localization.lua
+[4.392s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/ekf.yaml
+[4.392s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/2d_slam.lua
+[4.392s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam
+[4.396s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam
+[4.397s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.sh
+[4.397s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.dsv
+[4.397s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.sh
+[4.402s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.dsv
+[4.402s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.bash
+[4.402s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.sh
+[4.403s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.zsh
+[4.403s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.dsv
+[4.404s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv
+[4.404s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/packages/tortoisebot_slam
+[4.404s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig.cmake
+[4.404s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig-version.cmake
+[4.404s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/package.xml
+[4.487s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_slam

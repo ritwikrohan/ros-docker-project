@@ -1,0 +1,54 @@
+[0.052s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_slam -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_slam
+[0.420s] -- The C compiler identification is GNU 9.4.0
+[0.801s] -- The CXX compiler identification is GNU 9.4.0
+[0.806s] -- Check for working C compiler: /usr/bin/cc
+[1.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.211s] -- Detecting C compiler ABI info
+[1.628s] -- Detecting C compiler ABI info - done
+[1.719s] -- Detecting C compile features
+[1.721s] -- Detecting C compile features - done
+[1.725s] -- Check for working CXX compiler: /usr/bin/c++
+[2.300s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.303s] -- Detecting CXX compiler ABI info
+[2.826s] -- Detecting CXX compiler ABI info - done
+[2.914s] -- Detecting CXX compile features
+[2.914s] -- Detecting CXX compile features - done
+[2.930s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.213s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.213s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.100s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.801s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.801s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.801s] -- Added test 'lint_cmake' to check CMake code style
+[4.802s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.802s] -- Added test 'xmllint' to check XML markup files
+[4.804s] -- Configuring done
+[4.815s] -- Generating done
+[4.818s] -- Build files have been written to: /home/user/ros2_ws/build/tortoisebot_slam
+[4.822s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_slam -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_slam
+[4.828s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_slam -- -j8 -l8
+[5.123s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_slam -- -j8 -l8
+[5.310s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_slam
+[5.426s] -- Install configuration: ""
+[5.426s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/launch
+[5.426s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/launch/cartographer.launch.py
+[5.426s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config
+[5.427s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/2d_localization.lua
+[5.427s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/ekf.yaml
+[5.427s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/config/2d_slam.lua
+[5.427s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/package_run_dependencies/tortoisebot_slam
+[5.427s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/parent_prefix_path/tortoisebot_slam
+[5.428s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.sh
+[5.428s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/ament_prefix_path.dsv
+[5.428s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.sh
+[5.429s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/environment/path.dsv
+[5.430s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.bash
+[5.430s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.sh
+[5.430s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.zsh
+[5.430s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/local_setup.dsv
+[5.430s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/package.dsv
+[5.431s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/ament_index/resource_index/packages/tortoisebot_slam
+[5.431s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig.cmake
+[5.432s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/cmake/tortoisebot_slamConfig-version.cmake
+[5.432s] -- Installing: /home/user/ros2_ws/install/tortoisebot_slam/share/tortoisebot_slam/package.xml
+[5.518s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_slam

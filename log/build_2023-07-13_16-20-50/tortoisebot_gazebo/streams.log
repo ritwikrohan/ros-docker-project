@@ -1,0 +1,56 @@
+[0.072s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_gazebo
+[0.344s] -- The C compiler identification is GNU 9.4.0
+[0.728s] -- The CXX compiler identification is GNU 9.4.0
+[0.736s] -- Check for working C compiler: /usr/bin/cc
+[1.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.225s] -- Detecting C compiler ABI info
+[1.630s] -- Detecting C compiler ABI info - done
+[1.724s] -- Detecting C compile features
+[1.724s] -- Detecting C compile features - done
+[1.727s] -- Check for working CXX compiler: /usr/bin/c++
+[2.246s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.248s] -- Detecting CXX compiler ABI info
+[2.745s] -- Detecting CXX compiler ABI info - done
+[2.825s] -- Detecting CXX compile features
+[2.827s] -- Detecting CXX compile features - done
+[2.840s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.124s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.124s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.033s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.730s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.734s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.735s] -- Added test 'lint_cmake' to check CMake code style
+[4.735s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.752s] -- Added test 'xmllint' to check XML markup files
+[4.752s] -- Configuring done
+[4.752s] -- Generating done
+[4.753s] -- Build files have been written to: /home/user/ros2_ws/build/tortoisebot_gazebo
+[4.841s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/tortoisebot_gazebo
+[4.842s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_gazebo -- -j8 -l8
+[5.144s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_gazebo -- -j8 -l8
+[5.338s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_gazebo
+[5.534s] -- Install configuration: ""
+[5.534s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo
+[5.535s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[5.536s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[5.536s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[5.536s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch
+[5.537s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[5.538s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[5.539s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[5.539s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[5.539s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[5.540s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[5.540s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[5.540s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[5.543s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[5.543s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[5.543s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[5.544s] -- Installing: /home/user/ros2_ws/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[5.649s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_gazebo

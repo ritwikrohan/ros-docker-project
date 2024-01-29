@@ -1,0 +1,24 @@
+[1.093s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_navigation -- -j8 -l8
+[3.789s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/tortoisebot_navigation -- -j8 -l8
+[4.519s] Invoking command in '/home/user/ros2_ws/build/tortoisebot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_navigation
+[4.593s] -- Install configuration: ""
+[4.594s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/launch
+[4.594s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/launch/navigation.launch.py
+[4.595s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/config
+[4.595s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/config/nav2_params.yaml
+[4.595s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/ament_index/resource_index/package_run_dependencies/tortoisebot_navigation
+[4.596s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/ament_index/resource_index/parent_prefix_path/tortoisebot_navigation
+[4.596s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.sh
+[4.596s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/ament_prefix_path.dsv
+[4.597s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.sh
+[4.597s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/environment/path.dsv
+[4.597s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.bash
+[4.597s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.sh
+[4.597s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.zsh
+[4.598s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/local_setup.dsv
+[4.598s] -- Installing: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/package.dsv
+[4.598s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/ament_index/resource_index/packages/tortoisebot_navigation
+[4.601s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig.cmake
+[4.601s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/cmake/tortoisebot_navigationConfig-version.cmake
+[4.601s] -- Up-to-date: /home/user/ros2_ws/install/tortoisebot_navigation/share/tortoisebot_navigation/package.xml
+[5.118s] Invoked command in '/home/user/ros2_ws/build/tortoisebot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/tortoisebot_navigation
