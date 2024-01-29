@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  tortoisebot-ros2-real:
+    image: tortoisebot_ros2_real
+    network_mode: host
+    ipc: host
+    pid: host
+    tty: true
+    privileged: true
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0:rwm
+    volumes:
+      - /dev/shm:/dev/shm
+      - /dev/mem:/dev/mem
+      - /dev/gpiomem:/dev/gpiomem
+    environment:
+      - ROS_IPV6=on
+    build:
+      context: ./tortoisebot-ros2-real
+      dockerfile: ./Dockerfile
+
+  tortoisebot-ros2-slam-real:
+    image: tortoisebot_ros2_slam_real
+    network_mode: host
+    ipc: host
+    pid: host
+    volumes:
+      - /dev/shm:/dev/shm
+    environment:
+      - ROS_IPV6=on
+    depends_on:
+      - tortoisebot-ros2-real
+    build:
+      context: ./tortoisebot-ros2-slam-real
+      dockerfile: ./Dockerfile
