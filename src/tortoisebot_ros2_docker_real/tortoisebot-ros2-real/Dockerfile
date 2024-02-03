@@ -4,8 +4,15 @@ ARG USERNAME=tortoisebot
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
+# Define a placeholder for the hosts content
+ARG HOSTS_CONTENT_ARG
+ENV HOSTS_CONTENT=$HOSTS_CONTENT_ARG
+
 ENV DEBIAN_FRONTEND=noninteractive
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+
+COPY ros_entrypoint.sh /ros_entrypoint.sh
+RUN chmod +x /ros_entrypoint.sh
 
 RUN apt-get update && apt-get install -y \
   git \
@@ -19,6 +26,7 @@ RUN apt-get update && apt-get install -y \
   ros-galactic-xacro ros-galactic-nav2* \
   ros-galactic-urdf \
   ros-galactic-v4l2-camera \
+  ros-galactic-rviz2 \
   python3-dev \
   python3-rpi.gpio
 
@@ -29,13 +37,6 @@ RUN mkdir -p /ros2_ws/src
 
 RUN git clone -b ros2-galactic --recursive https://github.com/rigbetellabs/tortoisebot.git /ros2_ws/src/tortoisebot
 
-RUN rm -rf /ros2_ws/src/tortoisebot/tortoisebot_control
-#RUN rm -rf /ros2_ws/src/tortoisebot/tortoisebot_gazebo
-#RUN rm -rf /ros2_ws/src/tortoisebot/tortoisebot_navigation
-#RUN rm -rf /ros2_ws/src/tortoisebot/tortoisebot_slam
-
-ADD ros_entrypoint.sh /
-
 WORKDIR /ros2_ws
 
 RUN rosdep update
@@ -43,17 +44,15 @@ RUN rosdep install --from-paths src --ignore-src -r -y
 
 RUN echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> /etc/bash.bashrc
 
+COPY mybringup.launch.py /ros2_ws/src/tortoisebot/tortoisebot_bringup/launch/
+
 ENV RMW_IMPLEMENTATION="rmw_cyclonedds_cpp"
-
-RUN mkdir -p /var/lib/theconstruct.rrl/
-
-COPY cyclonedds.xml /var/lib/theconstruct.rrl/cyclonedds.xml
-
 ENV CYCLONEDDS_URI="file:///var/lib/theconstruct.rrl/cyclonedds.xml"
+
 
 RUN /bin/bash -c 'source /opt/ros/$ROS_DISTRO/setup.bash && colcon build 2>&1 > /ros2_ws/build.log && exit 0'
 
 RUN echo "source /ros2_ws/install/setup.bash" >> /etc/bash.bashrc
 
-ENTRYPOINT ["bash", "/ros_entrypoint.sh"]
-CMD ["ros2", "launch tortoisebot_bringup autobringup.launch.py use_sim_time:=False slam:=False"]
+ENTRYPOINT ["/ros_entrypoint.sh"]
+CMD ["ros2 launch tortoisebot_bringup mybringup.launch.py use_sim_time:=False"]

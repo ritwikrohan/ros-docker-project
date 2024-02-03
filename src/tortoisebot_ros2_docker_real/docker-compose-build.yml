@@ -14,8 +14,13 @@ services:
       - /dev/shm:/dev/shm
       - /dev/mem:/dev/mem
       - /dev/gpiomem:/dev/gpiomem
+      - /var/lib/theconstruct.rrl:/var/lib/theconstruct.rrl
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:ro
     environment:
       - ROS_IPV6=on
+      - DISPLAY=$DISPLAY
+      - XAUTHORITY=/root/.Xauthority
     build:
       context: ./tortoisebot-ros2-real
       dockerfile: ./Dockerfile
@@ -27,8 +32,13 @@ services:
     pid: host
     volumes:
       - /dev/shm:/dev/shm
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:ro
+      - /var/lib/theconstruct.rrl:/var/lib/theconstruct.rrl
     environment:
       - ROS_IPV6=on
+      - DISPLAY=$DISPLAY
+      - XAUTHORITY=/root/.Xauthority
     depends_on:
       - tortoisebot-ros2-real
     build:

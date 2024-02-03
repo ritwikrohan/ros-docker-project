@@ -2,9 +2,8 @@ version: "3.7"
 
 services:
   tortoisebot-ros2-gazebo:
-    # build: ./tortoisebot-ros2-gazebo
+    build: ./tortoisebot-ros2-gazebo
     # image: ros2:gazebo
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros2-gazebo
     expose:
       - "11311"
     environment:
@@ -16,9 +15,8 @@ services:
     # restart: "always"  # Run in detached mode
 
   tortoisebot-ros2-slam:
-    # build: ./tortoisebot-ros2-slam
+    build: ./tortoisebot-ros2-slam
     # image: ros2:slam
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros2-slam
     expose:
       - "11311"
     environment:
