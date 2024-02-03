@@ -11,9 +11,8 @@ services:
       - "11311"
 
   tortoisebot-ros1-gazebo:
-    # build: ./tortoisebot-ros1-gazebo
+    build: ./tortoisebot-ros1-gazebo
     # image: ros1:gazebo
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros1-gazebo
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -31,9 +30,8 @@ services:
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-slam:
-    # build: ./tortoisebot-ros1-slam
+    build: ./tortoisebot-ros1-slam
     # image: ros1:slam
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros1-slam
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -51,9 +49,8 @@ services:
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-waypoints:
-    # build: ./tortoisebot-ros1-waypoints
+    build: ./tortoisebot-ros1-waypoints
     # image: ros1:waypoints
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros1-waypoints
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
@@ -72,9 +69,8 @@ services:
     restart: "always"  # Run in detached mode
 
   tortoisebot-ros1-webapp:
-    # build: ./tortoisebot-ros1-webapp
+    build: ./tortoisebot-ros1-webapp
     # image: ros1:webapp
-    image: ritwikrohan/ritwikrohan-cp22:tortoisebot-ros1-webapp
     environment:
       - DISPLAY
       - ROS_MASTER_URI=http://tortoisebot-roscore:11311
